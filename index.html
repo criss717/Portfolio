@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Metadatos -->
+        <meta charset="utf-8">
+        <meta name="author" content="Cristian Guzmán">
+        <meta name="description" content="Portafolio de desarrollo web de Cristian Guzmán">
+        <meta name="keywords" content="HTML, CSS , JavaScript, React">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="images/icono.png">
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- CSS -->
+        <link href="style.css" rel="stylesheet">
+        <!-- Titulo -->
+        <title>Cristian Guzman || FullStack developer</title>  
+        <!-- Google Fonts       -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+        <!-- Iconos bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggler">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icono.png" width="50" alt="logo">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#proyectos">Proyectos</a>
+                  </li>                 
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
+                  </li>
+                </ul>             
+              </div>
+            </div>
+        </nav>
+
+        <!-- Section Hero -->
+        <section class="hero align-items-stretch">
+            <div class="hero-principal">
+                <img class="hero-img-perfil rounded-circle" src="images/fotoPersonal.png" width="250" height="250">
+                <h1>Hola, soy Cristian Guzmán</h1>
+                <h2>Desarrollo sitios web</h2>
+            </div>
+            <div class="hero-inferior">
+                <img class="hero-inferior-img img-fluid" src="images/hero-inferior.svg" alt="her-inferior">
+            </div>
+        </section>
+
+        <!-- Sobre mi -->
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Conoce a Cristian Guzmán</h2>
+                <p class="seccion-texto">Full Stack Developer con background en diseño industrial, manejo y conocimientos en metodologías agiles, estructuras de datos, GIT, algoritmos, frameworks CSS. Experiencia en desarrollo de Front End y BackEnd usando React, Node js, Express, Java script, postgresQl, Redux, Zustand y Scrum. He trabajado en proyectos individuales y grupales que me han ayudado a mejorar mis habilidades de  trabajo en equipo, cumplimiento de fechas de entrega, siempre esmerándome por dar más de lo estrictamente necesario. Nivel de Inglés: intermedio</p>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experiencia" class="experiencia seccion-clara">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Desarrolo web -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia-titulo">Desarrollo Web</p>
+                        <p>lorem</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">HTML</span>
+                            <span class="badge text-bg-primary">CSS</span>
+                            <span class="badge text-bg-primary">JavaScript</span>
+                            <span class="badge text-bg-primary">React</span>
+                        </div>
+                    </div>
+                     <!-- Estudios -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-book"></i>
+                        <p class="experiencia-titulo">Estudios</p>
+                        <p>lorem</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">HENRY</span>
+                            <span class="badge text-bg-primary">UTP</span>
+                            <span class="badge text-bg-primary">PLATZI</span>                           
+                        </div>
+                    </div>
+                    <div class=" columna col-12 col-md-4">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia-titulo">Desarrollo Web</p>
+                        <p>lorem</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">HTML</span>
+                            <span class="badge text-bg-primary">CSS</span>
+                            <span class="badge text-bg-primary">JavaScript</span>
+                            <span class="badge text-bg-primary">React</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-oscuro">Mis Proyectos Recientes</h2>
+            <h3 class="seccion-descripcion">Estos son algunos de mis proyectos</h3>
+            <!-- Galeria de proyectos -->
+            <div class="container proyectos-contenedor text-center">
+                <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col-12 col-md-6">
+                        <div class="proyecto">
+                            <img class="img-fluid" src="images/G3EKHUB.jpeg" alt="g3ekHub Shop">
+                            <div class="overlay">
+                                <p class="experiencia-titulo">G3ekHub Shop</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/Guardianes-de-la-Tukineta" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    <a href="https://ge3khub-shop-p9rv.vercel.app/" target="_blank"><i class="bi bi-laptop"></i></a>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="col-12 col-md-6">
+                        <div class="proyecto">
+                            <img class="img-fluid" src="images/CountriesApp.jpeg" alt="Countries App">
+                            <div class="overlay">
+                                <p class="experiencia-titulo">Countries App</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/criss717/PI_COUNTRIES" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    <a href="https://pi-countries-topaz.vercel.app/" target="_blank"><i class="bi bi-laptop"></i></a>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 3
+                    <div class="col-12 col-md-6">
+                        <div class="proyecto">
+                            <img class="img-fluid" src="images/G3EKHUB.jpeg" alt="g3ekHub Shop">
+                            <div class="overlay">
+                                <p class="experiencia-titulo">G3EKHUB SHOP</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/Guardianes-de-la-Tukineta" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    <a href="https://ge3khub-shop-p9rv.vercel.app/" target="_blank"><i class="bi bi-laptop"></i></a>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    Proyecto 4 -->
+                    <!-- <div class="col-12 col-md-6">
+                        <div class="proyecto">
+                            <img class="img-fluid" src="images/G3EKHUB.jpeg" alt="g3ekHub Shop">
+                            <div class="overlay">
+                                <p class="experiencia-titulo">G3EKHUB SHOP</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/Guardianes-de-la-Tukineta" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    <a href="https://ge3khub-shop-p9rv.vercel.app/" target="_blank"><i class="bi bi-laptop"></i></a>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <a href="https://github.com/criss717" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-info">
+                    Más proyectos
+                     <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+            </a>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class=" container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:7criss17@gmail.com"  target="_blank" rel="noopener noreferrer">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer" class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-icono" src="images/icono.png" alt="icono">
+            <p class="footer-texto text-center">{El secreto es trabajo duro}<br>Creemos un proyecto juntos</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap">
+                <a href="https://github.com/criss717" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-guzman-bb5867233/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:7criss17@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-at-fill"></i></a>
+            </div>
+            <div class="derechos-de-autor">Creado por Cristian Guzmán (2023) &#169;</div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
